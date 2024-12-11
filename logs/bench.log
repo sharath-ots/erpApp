@@ -1,0 +1,109 @@
+2024-12-09 08:11:11,079 DEBUG cd frappe-bench && python3 -m venv env
+2024-12-09 08:11:14,389 DEBUG cd frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install  --upgrade pip
+2024-12-09 08:11:16,874 DEBUG cd frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install  wheel
+2024-12-09 08:11:18,856 LOG Getting frappe
+2024-12-09 08:11:18,856 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2024-12-09 08:11:22,127 LOG Installing frappe
+2024-12-09 08:11:22,127 DEBUG cd /home/erpsgt/frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install  --upgrade -e /home/erpsgt/frappe-bench/apps/frappe 
+2024-12-09 08:12:38,342 DEBUG cd /home/erpsgt/frappe-bench/apps/frappe && yarn install --check-files --verbose
+2024-12-09 08:13:08,211 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-12-09 08:13:08,211 DEBUG cd frappe-bench && bench build
+2024-12-09 08:13:08,345 INFO /usr/local/bin/bench build
+2024-12-09 08:13:38,151 LOG setting up backups
+2024-12-09 08:13:38,195 LOG backups were set up
+2024-12-09 08:13:38,195 INFO Bench frappe-bench initialized
+2024-12-09 08:14:10,287 INFO /usr/local/bin/bench new-site erp.starlly.in --db-root-password root@123 --admin-password erp@123
+2024-12-09 08:15:08,215 INFO /usr/local/bin/bench get-app erpnext --branch version-14
+2024-12-09 08:15:08,629 LOG Getting erpnext
+2024-12-09 08:15:08,629 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2024-12-09 08:15:13,215 LOG Installing erpnext
+2024-12-09 08:15:13,215 DEBUG cd /home/erpsgt/frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpsgt/frappe-bench/apps/erpnext 
+2024-12-09 08:15:50,102 DEBUG cd /home/erpsgt/frappe-bench/apps/erpnext && yarn install --check-files
+2024-12-09 08:15:51,341 DEBUG bench build --app erpnext
+2024-12-09 08:15:51,473 INFO /usr/local/bin/bench build --app erpnext
+2024-12-09 08:15:58,139 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-12-09 08:15:58,545 INFO /usr/local/bin/bench --site erp.starlly.in install-app erpnext
+2024-12-09 08:17:39,581 INFO /usr/local/bin/bench setup production erpsgt
+2024-12-09 08:17:39,588 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2024-12-09 08:18:05,274 DEBUG bench setup role fail2ban
+2024-12-09 08:18:05,407 INFO /usr/local/bin/bench setup role fail2ban
+2024-12-09 08:18:22,203 DEBUG bench setup role nginx
+2024-12-09 08:18:22,334 INFO /usr/local/bin/bench setup role nginx
+2024-12-09 08:18:37,432 DEBUG bench setup role supervisor
+2024-12-09 08:18:37,566 INFO /usr/local/bin/bench setup role supervisor
+2024-12-09 08:18:48,029 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-12-09 08:18:48,029 LOG Updated supervisord.conf: 'chown' changed from '' to 'erpsgt:erpsgt'
+2024-12-09 08:18:48,092 DEBUG sudo /usr/sbin/nginx -t
+2024-12-09 08:18:48,112 DEBUG sudo systemctl reload nginx
+2024-12-09 08:18:50,012 INFO /usr/local/bin/bench setup production erpsgt
+2024-12-09 08:18:50,024 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-12-09 08:18:50,113 DEBUG /usr/bin/supervisorctl reread
+2024-12-09 08:18:50,327 DEBUG /usr/bin/supervisorctl update
+2024-12-09 08:18:50,591 DEBUG sudo /usr/sbin/nginx -t
+2024-12-09 08:18:50,620 DEBUG sudo systemctl reload nginx
+2024-12-09 08:18:51,219 INFO /usr/local/bin/bench schedule
+2024-12-09 08:18:51,378 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-09 08:18:51,403 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-12-09 08:18:52,396 INFO /usr/local/bin/bench --site erp.starlly.in scheduler enable
+2024-12-09 08:18:53,178 INFO /usr/local/bin/bench --site erp.starlly.in scheduler resume
+2024-12-09 08:19:18,973 INFO /usr/local/bin/bench get-app hrms --branch version-14
+2024-12-09 08:19:19,416 LOG Getting hrms
+2024-12-09 08:19:19,416 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch version-14 --depth 1 --origin upstream
+2024-12-09 08:19:20,692 LOG Installing hrms
+2024-12-09 08:19:20,692 DEBUG cd /home/erpsgt/frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpsgt/frappe-bench/apps/hrms 
+2024-12-09 08:19:22,767 DEBUG bench build --app hrms
+2024-12-09 08:19:22,893 INFO /usr/local/bin/bench build --app hrms
+2024-12-09 08:19:25,087 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-12-09 08:19:27,631 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-12-09 08:19:28,229 INFO /usr/local/bin/bench schedule
+2024-12-09 08:19:28,234 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-09 08:19:28,380 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-12-09 08:19:30,156 INFO /usr/local/bin/bench --site erp.starlly.in install-app hrms
+2024-12-09 12:00:01,334 INFO /usr/local/bin/bench --verbose --site all backup
+2024-12-09 18:00:01,674 INFO /usr/local/bin/bench --verbose --site all backup
+2024-12-10 00:00:01,238 INFO /usr/local/bin/bench --verbose --site all backup
+2024-12-10 06:00:01,552 INFO /usr/local/bin/bench --verbose --site all backup
+2024-12-10 07:32:27,816 INFO /usr/local/bin/bench new-app adani_customizations
+2024-12-10 07:32:27,821 LOG creating new app adani_customizations
+2024-12-10 07:33:12,083 LOG Installing adani_customizations
+2024-12-10 07:33:12,085 DEBUG cd /home/erpsgt/frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erpsgt/frappe-bench/apps/adani_customizations 
+2024-12-10 07:33:14,268 DEBUG bench build --app adani_customizations
+2024-12-10 07:33:14,396 INFO /usr/local/bin/bench build --app adani_customizations
+2024-12-10 07:33:16,150 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-12-10 07:33:19,030 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-12-10 07:33:19,741 INFO /usr/local/bin/bench schedule
+2024-12-10 07:33:19,757 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-10 07:33:19,768 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-12-10 07:33:43,827 INFO /usr/local/bin/bench install-app adani_customizations
+2024-12-10 07:34:07,787 INFO /usr/local/bin/bench install-app adani_customizations --site erp.starlly.in
+2024-12-10 07:34:32,675 INFO /usr/local/bin/bench install-app --help
+2024-12-10 07:34:56,942 INFO /usr/local/bin/bench install-app adani_customizations
+2024-12-10 07:35:59,730 INFO /usr/local/bin/bench --site erp.starlly.in install-app adani_customizations
+2024-12-10 07:36:33,774 INFO /usr/local/bin/bench make-page --app adani_customizations AttendanceSync Attendance Sync
+2024-12-10 07:47:44,724 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2024-12-10 07:48:08,975 INFO /usr/local/bin/bench --site erp.starlly.in clear-cache
+2024-12-10 07:48:30,962 INFO /usr/local/bin/bench setup requirements --dev
+2024-12-10 07:48:31,362 DEBUG cd /home/erpsgt/frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=13.12.1 pyngrok~=5.0.5 unittest-xml-reporting~=3.0.4 watchdog~=3.0.0 hypothesis~=6.68.2 freezegun~=1.2.2 responses==0.23.1 
+2024-12-10 07:48:39,746 DEBUG cd /home/erpsgt/frappe-bench && /home/erpsgt/frappe-bench/env/bin/python -m pip install --quiet --upgrade hypothesis~=6.31.0 
+2024-12-10 07:50:54,674 INFO /usr/local/bin/bench restart
+2024-12-10 07:50:54,903 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-12-10 07:50:58,483 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-12-10 07:50:59,182 INFO /usr/local/bin/bench schedule
+2024-12-10 07:50:59,211 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-10 07:50:59,211 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-12-10 07:52:51,417 INFO /usr/local/bin/bench restart
+2024-12-10 07:52:51,633 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-12-10 07:52:54,248 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-12-10 07:52:55,876 INFO /usr/local/bin/bench schedule
+2024-12-10 07:52:55,982 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-12-10 07:52:56,091 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-10 12:00:01,921 INFO /usr/local/bin/bench --verbose --site all backup
+2024-12-10 17:20:41,970 INFO /usr/local/bin/bench restart
+2024-12-10 17:20:42,199 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-12-10 17:20:44,976 DEBUG cd /home/erpsgt/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-12-10 17:20:45,608 INFO /usr/local/bin/bench worker --queue short,default
+2024-12-10 17:20:45,615 INFO /usr/local/bin/bench schedule
+2024-12-10 17:20:45,780 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-12-10 18:00:01,248 INFO /usr/local/bin/bench --verbose --site all backup
+2024-12-11 00:00:01,830 INFO /usr/local/bin/bench --verbose --site all backup
+2024-12-11 06:00:01,984 INFO /usr/local/bin/bench --verbose --site all backup

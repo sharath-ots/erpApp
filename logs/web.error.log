@@ -1,0 +1,187 @@
+[2024-12-09 08:18:52 +0000] [13410] [INFO] Starting gunicorn 22.0.0
+[2024-12-09 08:18:52 +0000] [13410] [INFO] Listening at: http://127.0.0.1:8000 (13410)
+[2024-12-09 08:18:52 +0000] [13410] [INFO] Using worker: sync
+[2024-12-09 08:18:52 +0000] [13452] [INFO] Booting worker with pid: 13452
+[2024-12-09 08:18:52 +0000] [13453] [INFO] Booting worker with pid: 13453
+[2024-12-09 08:18:52 +0000] [13454] [INFO] Booting worker with pid: 13454
+[2024-12-09 08:18:52 +0000] [13455] [INFO] Booting worker with pid: 13455
+[2024-12-09 08:18:52 +0000] [13456] [INFO] Booting worker with pid: 13456
+[2024-12-09 08:19:25 +0000] [13410] [INFO] Handling signal: term
+[2024-12-09 08:19:25 +0000] [13452] [INFO] Worker exiting (pid: 13452)
+[2024-12-09 08:19:25 +0000] [13453] [INFO] Worker exiting (pid: 13453)
+[2024-12-09 08:19:25 +0000] [13455] [INFO] Worker exiting (pid: 13455)
+[2024-12-09 08:19:25 +0000] [13456] [INFO] Worker exiting (pid: 13456)
+[2024-12-09 08:19:25 +0000] [13454] [INFO] Worker exiting (pid: 13454)
+[2024-12-09 08:19:25 +0000] [13410] [INFO] Shutting down: Master
+[2024-12-09 08:19:27 +0000] [13541] [INFO] Starting gunicorn 22.0.0
+[2024-12-09 08:19:27 +0000] [13541] [INFO] Listening at: http://127.0.0.1:8000 (13541)
+[2024-12-09 08:19:27 +0000] [13541] [INFO] Using worker: sync
+[2024-12-09 08:19:27 +0000] [13549] [INFO] Booting worker with pid: 13549
+[2024-12-09 08:19:27 +0000] [13550] [INFO] Booting worker with pid: 13550
+[2024-12-09 08:19:27 +0000] [13551] [INFO] Booting worker with pid: 13551
+[2024-12-09 08:19:27 +0000] [13552] [INFO] Booting worker with pid: 13552
+[2024-12-09 08:19:27 +0000] [13553] [INFO] Booting worker with pid: 13553
+[2024-12-10 07:33:16 +0000] [13541] [INFO] Handling signal: term
+[2024-12-10 07:33:16 +0000] [13552] [INFO] Worker exiting (pid: 13552)
+[2024-12-10 07:33:16 +0000] [13549] [INFO] Worker exiting (pid: 13549)
+[2024-12-10 07:33:16 +0000] [13550] [INFO] Worker exiting (pid: 13550)
+[2024-12-10 07:33:16 +0000] [13553] [INFO] Worker exiting (pid: 13553)
+[2024-12-10 07:33:16 +0000] [13551] [INFO] Worker exiting (pid: 13551)
+[2024-12-10 07:33:16 +0000] [13541] [INFO] Shutting down: Master
+[2024-12-10 07:33:18 +0000] [28174] [INFO] Starting gunicorn 22.0.0
+[2024-12-10 07:33:18 +0000] [28174] [INFO] Listening at: http://127.0.0.1:8000 (28174)
+[2024-12-10 07:33:18 +0000] [28174] [INFO] Using worker: sync
+[2024-12-10 07:33:18 +0000] [28182] [INFO] Booting worker with pid: 28182
+[2024-12-10 07:33:18 +0000] [28183] [INFO] Booting worker with pid: 28183
+[2024-12-10 07:33:18 +0000] [28184] [INFO] Booting worker with pid: 28184
+[2024-12-10 07:33:18 +0000] [28185] [INFO] Booting worker with pid: 28185
+[2024-12-10 07:33:18 +0000] [28186] [INFO] Booting worker with pid: 28186
+[2024-12-10 07:50:55 +0000] [28174] [INFO] Handling signal: term
+[2024-12-10 07:50:55 +0000] [28182] [INFO] Worker exiting (pid: 28182)
+[2024-12-10 07:50:55 +0000] [28185] [INFO] Worker exiting (pid: 28185)
+[2024-12-10 07:50:55 +0000] [28183] [INFO] Worker exiting (pid: 28183)
+[2024-12-10 07:50:55 +0000] [28184] [INFO] Worker exiting (pid: 28184)
+[2024-12-10 07:50:55 +0000] [28186] [INFO] Worker exiting (pid: 28186)
+[2024-12-10 07:50:55 +0000] [28174] [INFO] Shutting down: Master
+[2024-12-10 07:50:57 +0000] [28398] [INFO] Starting gunicorn 22.0.0
+[2024-12-10 07:50:57 +0000] [28398] [INFO] Listening at: http://127.0.0.1:8000 (28398)
+[2024-12-10 07:50:57 +0000] [28398] [INFO] Using worker: sync
+[2024-12-10 07:50:57 +0000] [28406] [INFO] Booting worker with pid: 28406
+[2024-12-10 07:50:57 +0000] [28407] [INFO] Booting worker with pid: 28407
+[2024-12-10 07:50:57 +0000] [28412] [INFO] Booting worker with pid: 28412
+[2024-12-10 07:50:57 +0000] [28413] [INFO] Booting worker with pid: 28413
+[2024-12-10 07:50:57 +0000] [28414] [INFO] Booting worker with pid: 28414
+[2024-12-10 07:52:51 +0000] [28398] [INFO] Handling signal: term
+[2024-12-10 07:52:51 +0000] [28407] [INFO] Worker exiting (pid: 28407)
+[2024-12-10 07:52:51 +0000] [28406] [INFO] Worker exiting (pid: 28406)
+[2024-12-10 07:52:51 +0000] [28412] [INFO] Worker exiting (pid: 28412)
+[2024-12-10 07:52:51 +0000] [28413] [INFO] Worker exiting (pid: 28413)
+[2024-12-10 07:52:51 +0000] [28414] [INFO] Worker exiting (pid: 28414)
+[2024-12-10 07:52:52 +0000] [28398] [INFO] Shutting down: Master
+[2024-12-10 07:52:53 +0000] [28458] [INFO] Starting gunicorn 22.0.0
+[2024-12-10 07:52:53 +0000] [28458] [INFO] Listening at: http://127.0.0.1:8000 (28458)
+[2024-12-10 07:52:53 +0000] [28458] [INFO] Using worker: sync
+[2024-12-10 07:52:53 +0000] [28466] [INFO] Booting worker with pid: 28466
+[2024-12-10 07:52:54 +0000] [28467] [INFO] Booting worker with pid: 28467
+[2024-12-10 07:52:54 +0000] [28472] [INFO] Booting worker with pid: 28472
+[2024-12-10 07:52:54 +0000] [28473] [INFO] Booting worker with pid: 28473
+[2024-12-10 07:52:54 +0000] [28475] [INFO] Booting worker with pid: 28475
+[2024-12-10 17:20:42 +0000] [28458] [INFO] Handling signal: term
+[2024-12-10 17:20:42 +0000] [28472] [INFO] Worker exiting (pid: 28472)
+[2024-12-10 17:20:42 +0000] [28473] [INFO] Worker exiting (pid: 28473)
+[2024-12-10 17:20:42 +0000] [28467] [INFO] Worker exiting (pid: 28467)
+[2024-12-10 17:20:42 +0000] [28475] [INFO] Worker exiting (pid: 28475)
+[2024-12-10 17:20:42 +0000] [28466] [INFO] Worker exiting (pid: 28466)
+[2024-12-10 17:20:42 +0000] [28458] [INFO] Shutting down: Master
+[2024-12-10 17:20:44 +0000] [35130] [INFO] Starting gunicorn 22.0.0
+[2024-12-10 17:20:44 +0000] [35130] [INFO] Listening at: http://127.0.0.1:8000 (35130)
+[2024-12-10 17:20:44 +0000] [35130] [INFO] Using worker: sync
+[2024-12-10 17:20:44 +0000] [35141] [INFO] Booting worker with pid: 35141
+[2024-12-10 17:20:44 +0000] [35142] [INFO] Booting worker with pid: 35142
+[2024-12-10 17:20:44 +0000] [35143] [INFO] Booting worker with pid: 35143
+[2024-12-10 17:20:44 +0000] [35144] [INFO] Booting worker with pid: 35144
+[2024-12-10 17:20:45 +0000] [35146] [INFO] Booting worker with pid: 35146
+  File "/home/erpsgt/frappe-bench/env/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 202, in run
+    self.manage_workers()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 571, in manage_workers
+    self.spawn_workers()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 642, in spawn_workers
+    self.spawn_worker()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/base.py", line 142, in init_process
+    self.run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 126, in run
+    self.run_for_one(timeout)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 70, in run_for_one
+    self.accept(listener)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 32, in accept
+    self.handle(listener, client, addr)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 178, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 232, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 188, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/app.py", line 106, in application
+    response = get_response()
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 60, in resolve
+    if renderer_instance.can_render():
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/website/page_renderers/print_page.py", line 14, in can_render
+    if frappe.db.exists("DocType", parts[0], True) and frappe.db.exists(parts[0], parts[1], True):
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 1192, in exists
+    return self.get_value(dt, dn, ignore=True, cache=cache)
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 568, in get_value
+    result = self.get_values(
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 672, in get_values
+    out = self._get_values_from_table(
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 910, in _get_values_from_table
+    return query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 87, in execute_query
+    result = frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 272, in sql
+    traceback.print_stack()
+  File "/home/erpsgt/frappe-bench/env/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 202, in run
+    self.manage_workers()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 571, in manage_workers
+    self.spawn_workers()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 642, in spawn_workers
+    self.spawn_worker()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/base.py", line 142, in init_process
+    self.run()
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 126, in run
+    self.run_for_one(timeout)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 70, in run_for_one
+    self.accept(listener)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 32, in accept
+    self.handle(listener, client, addr)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 135, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 178, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 232, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/erpsgt/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 188, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/app.py", line 106, in application
+    response = get_response()
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 60, in resolve
+    if renderer_instance.can_render():
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/website/page_renderers/print_page.py", line 14, in can_render
+    if frappe.db.exists("DocType", parts[0], True) and frappe.db.exists(parts[0], parts[1], True):
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 1192, in exists
+    return self.get_value(dt, dn, ignore=True, cache=cache)
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 568, in get_value
+    result = self.get_values(
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 672, in get_values
+    out = self._get_values_from_table(
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 910, in _get_values_from_table
+    return query.run(as_dict=as_dict, debug=debug, update=update, run=run, pluck=pluck)
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/query_builder/utils.py", line 87, in execute_query
+    result = frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "/home/erpsgt/frappe-bench/apps/frappe/frappe/database/database.py", line 272, in sql
+    traceback.print_stack()
